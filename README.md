@@ -1,7 +1,6 @@
 # Application Tracker – Built with React, TypeScript, Tailwind, Zustand
 
-En enkel jobbansöknings-dashboard: lägg till ansökningar, anteckningar och status.  
-Byggd för att visa UI/UX-kvalitet och modern React-stack.
+En jobbansöknings-dashboard: lägg till ansökningar, anteckningar och status.  
 
 ## Tech
 - React + TypeScript (Vite)
