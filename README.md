@@ -1,14 +1,14 @@
-# Jobb Dashboard
+# Application Tracker – Built with React, TypeScript, Tailwind, Zustand
 
-Ett React + TypeScript-projekt där du kan lägga till jobb du sökt.
+En enkel jobbansöknings-dashboard: lägg till ansökningar, anteckningar och status.  
+Byggd för att visa UI/UX-kvalitet och modern React-stack.
 
-## Funktioner
-- Lägg till företagsnamn, roll och status
-- Se en lista över jobb du har sökt
-- Byggt med Vite, React, TypeScript och Tailwind CSS
+## Tech
+- React + TypeScript (Vite)
+- Tailwind CSS v4
+- LocalStorage (ev. Zustand i nästa steg)
 
-## Starta projektet lokalt
-
+## Köra lokalt
 ```bash
-npm install
+npm i
 npm run dev

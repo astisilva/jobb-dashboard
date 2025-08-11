@@ -7,18 +7,42 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Build output
 dist
 dist-ssr
-*.local
 
-# Editor directories and files
+# Env (spara bara exempel)
+.env
+.env*.local
+!.env.example
+
+# Caches
+.vite
+.eslintcache
+coverage
+.nyc_output
+
+# Deploy
+.vercel
+.netlify
+
+# Editor/OS
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.history
+
+# TypeScript
+*.tsbuildinfo
+
+# Node
+node_modules
+*.local
+
