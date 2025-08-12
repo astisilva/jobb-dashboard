@@ -1,9 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Tala om för Tailwind var den ska leta efter klassnamn */
+@source "../index.html";
+@source "./**/*.{ts,tsx,js,jsx}";
 
 
-html, body, #root { height: 100%; }
+/* html, body, #root { height: 100%; } */
 
 /* 
 :root {

@@ -2,7 +2,7 @@ import JobForm from './components/JobForm';
 import { useEffect, useState } from 'react';
 import JobList from './components/JobList';
 import type { Job, JobFormData } from './types/job';
-import './App.css';
+/* import './App.css'; */
 
 function App() {
   // Läs från localStorage en gång (lazy init)
@@ -27,10 +27,16 @@ function App() {
     };
     setJobs((prevJobs) => [...prevJobs, job]);
   };
+
+
+const removeJob = (id:string) => {console.log("tar bort:", id); setJobs(prev=>prev.filter(j=>j.id !== id))
+}
+
+
   return (
     <>
       <JobForm onAddJob={addJob} />
-      <JobList jobs={jobs} />
+      <JobList jobs={jobs}  onDelete={removeJob}/>
     </>
   );
 }
