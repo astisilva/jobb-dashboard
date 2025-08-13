@@ -1,5 +1,4 @@
-# Application Tracker – Built with React, TypeScript, Tailwind, Zustand
-
+# Application Tracker – Built with React, TypeScript, Tailwind
 En jobbansöknings-dashboard: lägg till ansökningar, anteckningar och status.  
 
 ## Tech
